@@ -1,0 +1,7 @@
+s=input("enter the string:")
+a=input("enter the string:")
+if s!=a:
+    print(s,len(s))
+    print(a,len(a))
+else:
+    pass
