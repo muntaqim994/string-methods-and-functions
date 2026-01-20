@@ -1,0 +1,59 @@
+# swapcase() is a string function that converts uppercase letters to lowercase and lowercase letters to uppercase.
+s="Muntaqim"
+print(s.swapcase())
+
+# rstrip() removes spaces or characters from the right side of a string.
+# lstrip()removes spaces or characters from the left side of a string.
+# strip() removes spaces or characters from the both side of a string.
+ s = "hello   "
+ print(s.rstrip())
+
+s = "hellooo"
+print(s.rstrip("o"))
+
+# find() returns the index of the first occurrence of a substring.
+# If not found, it returns -1.
+# string.find(substring)
+s = "python"
+print(s.find("th"))
+
+ s = "python programming"
+ print(s.find("o", 5, 15))
+
+# index() returns the index of the first occurrence of a substring.
+# If not found, it raises a ValueError.
+# string.index(substring)
+# string.index(substring, start, end)
+s = "python"
+print(s.index("th"))
+
+
+# count() returns the number of times a substring appears in a string.
+# string.count(substring)
+# string.count(substring, start, end)
+ s = "banana"
+ print(s.count("a"))
+
+
+# replace() replaces old string with new string in a string.
+# string.replace(old, new)
+ s = "banana"
+ print(s.replace("a", "o"))
+
+# string.replace(old, new, count)
+# count=number of times
+ print(s.replace("a", "o", 2))
+
+
+# split() breaks a string into a list of words using a separator.
+# string.split(separator)
+ s = "python-java-c"
+ print(s.split("-"))
+
+ s = "python java c"
+ print(s.split())
+
+
+ a=['apple','banana']
+ print(a.count("apple"))
+
