@@ -1,0 +1,8 @@
+ch = input("enter the string: ")
+
+for i in ch:
+    if 48 <= ord(i) <= 57 or 65 <= ord(i) <= 90 or 97 <= ord(i) <= 122:
+        pass
+    else:
+        print(i)
+        print(ord(i))
