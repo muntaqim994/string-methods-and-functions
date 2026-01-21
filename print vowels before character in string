@@ -1,0 +1,8 @@
+s=input("enter the string:")
+a="aeiouAEIOU"
+for i in s:
+    if i%2==0:
+        b=s.index(i)-1
+        print(s[b])
+    else:
+        pass
