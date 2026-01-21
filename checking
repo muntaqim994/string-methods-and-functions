@@ -1,0 +1,9 @@
+s=input("enter the string:")
+for i in s:
+    pass
+    if i.isdigit():
+        print("digit",i)
+    elif i.isalpha():
+        print("alphabet",i)
+    else:
+        print("symbol",i)
