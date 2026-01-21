@@ -1,0 +1,6 @@
+a=input("enter the string:")
+b=a[::-1]
+for i in range(len(a)):
+    print(a[i],   i)
+for j in range(len(b)):
+    print(b[j], -(j+1))
