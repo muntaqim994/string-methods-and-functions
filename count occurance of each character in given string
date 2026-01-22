@@ -1,0 +1,7 @@
+s=input("enter the string:")
+seen=""
+for i in s:
+    if i not in seen:
+    # if s.count(i):
+        print(i,s.count(i))
+        seen=seen+i
